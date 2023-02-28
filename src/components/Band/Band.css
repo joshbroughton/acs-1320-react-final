@@ -3,7 +3,7 @@
     border: 1px solid whitesmoke;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding-left: 30px;
     padding-bottom: 20px;
 }
@@ -11,4 +11,6 @@
 h2 {
     font-family: 'Metal Mania';
     font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0;
 }

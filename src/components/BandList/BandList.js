@@ -4,10 +4,10 @@ import Band from "../Band/Band";
 import './BandList.css'
 
 function BandList() {
-  const bands = data.map(({ id, band_name, fans, formed, origin, split, style}) => {
+  const bands = data.map(({ ID, band_name, fans, formed, origin, split, style}) => {
     return(
       <Band
-        key={id}
+        key={ID}
         band_name={band_name}
         fans={fans}
         formed={formed}
