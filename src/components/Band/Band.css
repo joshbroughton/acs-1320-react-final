@@ -1,0 +1,14 @@
+.band-container {
+    background-color: #292929;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Metal Mania';
+    font-size: 2rem;
+}

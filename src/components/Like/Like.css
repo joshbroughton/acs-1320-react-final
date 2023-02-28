@@ -1,0 +1,14 @@
+.like-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 125px;
+    align-self: center;
+}
+
+input {
+    background-color: #474747;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 10px
+}
